@@ -11,7 +11,7 @@ public class Number11 {
 		for(int i=1; i<=50000; i++){
 			String s;
 			s=Integer.toString(i);
-			if(s.indexOf("2")!=-1)
+			if(s.indexOf("2")!=1)
 			kol++;
 		}
 		System.out.println("Количество ошибочных табличек = "+kol);
